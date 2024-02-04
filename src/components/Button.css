@@ -1,0 +1,32 @@
+button {
+    border: none;
+    background-color: rgb(188, 181, 232);
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: rgb(162, 147, 255);
+  }
+  
+  .operation {
+    background-color: plum; 
+  }
+
+
+  .operation:hover {
+    background-color: rgb(216, 104, 199) ;
+  }
+
+  .equals {
+    grid-column: 3 / 5;
+    background-color: rgb(255, 101, 77);
+  }
+  
+  .equals:hover {
+    background-color: rgb(255, 89, 67);
+  }
